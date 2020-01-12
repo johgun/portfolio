@@ -14,7 +14,7 @@ class App extends Component {
   render() {
     return (
       <Switch>
-        <Route exact path="/" render={() => (
+        <Route path="/" render={() => (
             <div className="container">
               <PageHeader />
               <Case1 />
@@ -25,19 +25,19 @@ class App extends Component {
             </div>
           )} />
 
-          <Route exact path="/essguide" render={() => (
+          <Route path="/essguide" render={() => (
               <div className="container">
                 <Case1Content />
               </div>
             )} />
 
-          <Route exact path="/coldcut" render={() => (
+          <Route path="/coldcut" render={() => (
               <div className="container">
                 <Case2Content />
               </div>
             )} />
 
-          <Route exact path="/bolon" render={() => (
+          <Route path="/bolon" render={() => (
               <div className="container">
                 <Case3Content />
               </div>
