@@ -8,6 +8,7 @@ import EssveDesign from './img/essve-design.jpg';
 import EssveIcons from './img/essve-icons.jpg';
 import EssveLoader from './img/essve-loader.svg';
 import LongArrowBlack from './img/long-arrow-black.svg';
+import { Link } from 'react-router-dom'
 
 
 const Case1Content = () => {
@@ -19,9 +20,9 @@ const Case1Content = () => {
           <h2>A new tool for the craftsman</h2>
         </div>
         <div id="case-header-right">
-          <a href="/">
+          <Link to="/">
             <img src={CloseIcon} alt="x"/>
-          </a>
+          </Link>
         </div>
       </section>
 

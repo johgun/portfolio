@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import TinyArrowUp from './img/tiny-arrow-up.svg';
+import { HashLink } from 'react-router-hash-link';
 
 const today = new Date();
 
@@ -31,7 +32,7 @@ const PageFooter = () => {
 <footer>
       <div id="sub-footer">
         <p>
-          <a href="#">Back to top <img src={TinyArrowUp} alt="scroll up" /></a>
+          <HashLink to="#page-top">Back to top <img src={TinyArrowUp} alt="scroll up" /></HashLink>
         </p>
       </div>
 

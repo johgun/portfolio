@@ -7,7 +7,7 @@ import BolonScope from './img/bolon-scope.png';
 import BolonDesign1 from './img/bolon-design-1.jpg';
 import BolonDesign2 from './img/bolon-design-2.jpg';
 import BolonDesign3 from './img/bolon-design-3.jpg';
-
+import { Link } from 'react-router-dom'
 
 
 const Case3Content = () => {
@@ -19,9 +19,9 @@ const Case3Content = () => {
           <h2>Innovators at heart</h2>
         </div>
         <div id="case-header-right">
-          <a href="/">
+          <Link to="/">
             <img src={CloseIcon} alt="x"/>
-          </a>
+          </Link>
         </div>
       </section>
 

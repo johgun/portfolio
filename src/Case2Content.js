@@ -8,6 +8,7 @@ import CCSIdentity from './img/ccs-identity.jpg';
 import CCSHome from './img/ccs-home.jpg';
 import CCSMethod from './img/ccs-method.jpg';
 import CCSObjects from './img/ccs-objects.jpg';
+import { Link } from 'react-router-dom'
 
 
 
@@ -20,9 +21,9 @@ const Case2Content = () => {
           <h2>Giving the future of fire fighting a new look</h2>
         </div>
         <div id="case-header-right">
-          <a href="/">
+          <Link to="/">
             <img src={CloseIcon} alt="x"/>
-          </a>
+          </Link>
         </div>
       </section>
 
