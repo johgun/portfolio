@@ -8,12 +8,13 @@ import Case1Content from './Case1Content'
 import Case2Content from './Case2Content'
 import Case3Content from './Case3Content'
 import PageBio from './PageBio'
-import { Switch, Route } from 'react-router-dom'
+//import { Switch, Route } from 'react-router-dom'
+import { HashRouter, Route } from 'react-router-dom';
 
 class App extends Component {
   render() {
     return (
-      <Switch>
+      <HashRouter>
         <Route path="/" render={() => (
             <div className="container">
               <PageHeader />
@@ -43,16 +44,51 @@ class App extends Component {
               </div>
             )} />
 
-      </Switch>
-      // <div className="container">
-      //   <PageHeader />
-      //   <Case1 />
-      //   <Case2 />
-      //   <PageFooter />
-      // </div>
+      </HashRouter>
+
     )
   }
 }
+
+
+// class App extends Component {
+//   render() {
+//     return (
+//       <Switch>
+//         <Route exact path="/" render={() => (
+//             <div className="container">
+//               <PageHeader />
+//               <Case1 />
+//               <Case2 />
+//               <Case3 />
+//               <PageBio />
+//               <PageFooter />
+//             </div>
+//           )} />
+//
+//           <Route exact path="/essguide" render={() => (
+//               <div className="container">
+//                 <Case1Content />
+//               </div>
+//             )} />
+//
+//           <Route exact path="/coldcut" render={() => (
+//               <div className="container">
+//                 <Case2Content />
+//               </div>
+//             )} />
+//
+//           <Route exact path="/bolon" render={() => (
+//               <div className="container">
+//                 <Case3Content />
+//               </div>
+//             )} />
+//
+//       </Switch>
+//
+//     )
+//   }
+// }
 
 
 export default App
