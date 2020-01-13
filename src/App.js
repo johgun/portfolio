@@ -9,7 +9,7 @@ import Case2Content from './Case2Content'
 import Case3Content from './Case3Content'
 import PageBio from './PageBio'
 //import { Switch, Route } from 'react-router-dom'
-import { HashRouter, Route } from 'react-router-dom';
+import { HashRouter, Route } from 'react-router-dom'
 
 class App extends Component {
   render() {
