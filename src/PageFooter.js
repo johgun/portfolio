@@ -4,6 +4,14 @@ import { HashLink } from 'react-router-hash-link';
 
 const today = new Date();
 
+const scrollToTop = () => {
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: 'smooth'
+  });
+}
+
 const PageFooter = () => {
   return (
 
@@ -31,8 +39,8 @@ const PageFooter = () => {
       //   </div>
 <footer>
       <div id="sub-footer">
-        <p>
-          <HashLink to="#page-top-link">Back to top <img src={TinyArrowUp} alt="scroll up" /></HashLink>
+        <p onClick={ scrollToTop } >
+          Back to top <img src={TinyArrowUp} alt="scroll up" />
         </p>
       </div>
 
