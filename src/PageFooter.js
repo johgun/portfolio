@@ -39,8 +39,10 @@ const PageFooter = () => {
       //   </div>
 <footer>
       <div id="sub-footer">
-        <p onClick={ scrollToTop } >
-          Back to top <img src={TinyArrowUp} alt="scroll up" />
+        <p className="scroll-up-link" onClick={ scrollToTop } >
+          <span>
+            Back to top <img src={TinyArrowUp} alt="scroll up" />
+          </span>
         </p>
       </div>
 

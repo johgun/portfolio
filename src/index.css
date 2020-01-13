@@ -311,6 +311,8 @@ footer ul li  {
   padding-right: 30px;
 }
 
+
+
 /* * * * FOOTER MOBILE * * * * */
 @media (max-width: 800px) {
   footer {
@@ -419,18 +421,21 @@ footer ul li  {
   }
 }
 
+.scroll-up-link {
+  cursor: pointer;
+}
+
 #sub-footer a {
     color: #171717;
     text-decoration: none;
-
   }
 
-#sub-footer a img {
+#sub-footer a img, #sub-footer span img {
     padding-left: 7px;
     margin-top: -3px;
   }
 
-#sub-footer a:hover img {
+#sub-footer a:hover img, #sub-footer span:hover img  {
   animation-timing-function: ease-in-out;
   animation: bounce 1s;
   animation-iteration-count: infinite;
