@@ -114,11 +114,11 @@ const Case2Content = () => {
         <section id="next-case" className="page-grid-cols">
 
             <div>
-              <a href="/bolon" >
+              <Link to="/bolon" >
                 <h5>Visit next case</h5>
                 <h3>Innovators at heart</h3>
                 <img src={LongArrowBlack} alt="Next case" />
-              </a>
+              </Link>
             </div>
 
         </section>

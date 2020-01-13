@@ -106,11 +106,11 @@ const Case3Content = () => {
         <section id="next-case" className="page-grid-cols">
 
             <div>
-              <a href="/essguide" >
+              <Link to="/essguide" >
                 <h5>Visit next case</h5>
                 <h3>A new tool for the craftsman</h3>
                 <img src={LongArrowBlack} alt="Next case" />
-              </a>
+              </Link>
             </div>
 
         </section>

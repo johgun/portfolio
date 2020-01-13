@@ -32,7 +32,7 @@ const PageFooter = () => {
 <footer>
       <div id="sub-footer">
         <p>
-          <HashLink to="#page-top">Back to top <img src={TinyArrowUp} alt="scroll up" /></HashLink>
+          <HashLink to="#page-top-link">Back to top <img src={TinyArrowUp} alt="scroll up" /></HashLink>
         </p>
       </div>
 
