@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component, useEffect } from 'react'
 import PageHeader from './PageHeader'
 import Case1 from './Case1'
 import Case2 from './Case2'
@@ -9,13 +9,25 @@ import Case2Content from './Case2Content'
 import Case3Content from './Case3Content'
 import PageBio from './PageBio'
 //import { Switch, Route } from 'react-router-dom'
-import { HashRouter, Route } from 'react-router-dom'
+import { HashRouter, Route, useLocation } from 'react-router-dom'
+
+export default function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
+
+
 
 class App extends Component {
   render() {
     return (
       <HashRouter>
-
+          <ScrollToTop />
           <Route exact path="/" render={() => (
               <div className="container">
                 <PageHeader />
