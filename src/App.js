@@ -15,34 +15,36 @@ class App extends Component {
   render() {
     return (
       <HashRouter>
-        <Route path="/" render={() => (
-            <div className="container">
-              <PageHeader />
-              <Case1 />
-              <Case2 />
-              <Case3 />
-              <PageBio />
-              <PageFooter />
-            </div>
-          )} />
 
-          <Route path="/essguide" render={() => (
+          <Route exact path="/" render={() => (
               <div className="container">
-                <Case1Content />
+                <PageHeader />
+                <Case1 />
+                <Case2 />
+                <Case3 />
+                <PageBio />
+                <PageFooter />
               </div>
             )} />
 
-          <Route path="/coldcut" render={() => (
-              <div className="container">
-                <Case2Content />
-              </div>
-            )} />
+            <Route path="/essguide" render={() => (
+                <div className="container">
+                  <Case1Content />
+                </div>
+              )} />
 
-          <Route path="/bolon" render={() => (
-              <div className="container">
-                <Case3Content />
-              </div>
-            )} />
+            <Route path="/coldcut" render={() => (
+                <div className="container">
+                  <Case2Content />
+                </div>
+              )} />
+
+            <Route path="/bolon" render={() => (
+                <div className="container">
+                  <Case3Content />
+                </div>
+              )} />
+
 
       </HashRouter>
 
