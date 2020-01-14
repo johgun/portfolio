@@ -6,7 +6,7 @@ document.title = "Johan Gunnarsson – Digital product designer";
 
 const PageHeader = () => {
   return (
-    <header className="page-grid" id="page-top page-top-link">
+    <header className="page-grid" id="page-top">
       <div className="header-left">
         <h1>Johan Gunnarsson</h1>
         <h2>
