@@ -62,7 +62,7 @@ const Case3Content = () => {
             <br />
             The main challenge was to find a look and feel that could be applied to all four sites. User experience had to be baked in to the general design process as there was no time for a separate UX process. This was risky but worked since the sites had a relatively low complexity when it came to the flow and structure.
             <br />
-            In my experiences a small and focused team working closely with the client often produces the best results and are able to to so in a short time. Being able to shut out all other distractions and find a good flow was what made this project successful despite the short time frame.
+            In my experiences a small and focused team working closely with the client often produces the best results and are able to do so in a short time. Being able to shut out all other distractions and find a good flow was what made this project successful despite the short time frame.
           </p>
         </section>
 
@@ -83,7 +83,7 @@ const Case3Content = () => {
             <h5>Realisation</h5>
           </div>
           <p>
-            We managed to find a common design language yet differentiate the sites enough from each other. They obviously share a lot with Bolons brand idintity, but also manages to explore some new visual directions. It was challenging but fun to sketch and iterate on multiple design directions for many different sites at the same time. And it was rewarding to see them built and launched in such a short time.
+            We managed to find a common design language yet differentiate the sites enough from each other. They obviously share a lot with Bolons brand identity, but also manages to explore some new visual directions. It was challenging but fun to sketch and iterate on multiple design directions for many different sites at the same time. And it was rewarding to see them built and launched in such a short time.
             <br />
             The sites were developed by Level Nine and went live in time for the launch of the new collections.
           </p>
