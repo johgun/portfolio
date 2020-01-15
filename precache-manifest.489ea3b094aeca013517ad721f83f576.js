@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6e1203ff1a8d7aad6ce5402bc1e71b70",
+    "revision": "26e749c0342f10729c535bffe041ddd8",
     "url": "./index.html"
   },
   {
-    "revision": "3b803c5190bed2d18392",
+    "revision": "634c6de47f3d374b70d8",
     "url": "./static/css/main.04e060fa.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/js/2.eb6eadd4.chunk.js"
   },
   {
-    "revision": "3b803c5190bed2d18392",
-    "url": "./static/js/main.cc6c91be.chunk.js"
+    "revision": "634c6de47f3d374b70d8",
+    "url": "./static/js/main.d6794dea.chunk.js"
   },
   {
     "revision": "2de8a60ac969b92a250f",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/bolon-design-1.e5c40fb1.jpg"
   },
   {
-    "revision": "3108af1f57e5c39539d90a4fd10d1720",
-    "url": "./static/media/bolon-design-2.3108af1f.jpg"
+    "revision": "79e1ad0c39073f996295a46a521d8134",
+    "url": "./static/media/bolon-design-2.79e1ad0c.jpg"
   },
   {
     "revision": "ff501671243d93d7fabcb2ed45848b63",
