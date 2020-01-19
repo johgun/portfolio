@@ -27,8 +27,10 @@ class App extends Component {
   render() {
     return (
       <HashRouter>
+
           <ScrollToTop />
           <Route exact path="/" render={() => (
+
               <div className="container">
                 <PageHeader />
                 <Case1 />
@@ -38,6 +40,7 @@ class App extends Component {
                 <PageFooter />
               </div>
             )} />
+
 
             <Route path="/essguide" render={() => (
                 <div className="container">

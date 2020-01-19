@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import TinyArrowDown from './img/tiny-arrow-down.svg';
 import { HashLink } from 'react-router-hash-link';
 
-document.title = "Johan Gunnarsson – Digital product designer";
-
 const PageHeader = () => {
   return (
     <header className="page-grid" id="page-top">
